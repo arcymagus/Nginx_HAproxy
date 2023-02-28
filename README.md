@@ -1,3 +1,3 @@
 # Nginx_HAproxy
 
-This is test HAproxy for NGINX (docker-compose)
+This is HAproxy test  for NGINX (docker-compose)
