@@ -1,0 +1,15 @@
+name: Check_GCP_AIM
+
+on: push
+
+jobs:
+  Check_GCP:
+    name: Run Ubuntu
+    runs-on: ubuntu-latest
+    container: 
+      image: ubuntu:latest
+  
+
+    steps:
+    - uses: actions/checkout@v2
+    - name: Build the job
